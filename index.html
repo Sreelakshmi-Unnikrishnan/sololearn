@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sololearn</title>
+</head>
+<body>
+    <div class="navmenu">
+        <div class="navs">
+                    <img src="./images/logos.png" alt="">
+                    <h3>sololearn</h3>
+            <nav>
+                <input id="nav-toggle" type="checkbox" /> 
+                <ul class="links">
+                    <li><a href="#get" id="txt1">Courses</a></li>
+                    <li><a href="#about" id="txt2">Code Playground</a></li>
+                    <li><a href="#work" id="txt3">Discuss</a></li>
+                    <li><a href="#projects" id="txt4">Blog</a></li>
+                    <li><a href="#projects" id="txt5">Get Pro</a></li>
+                    <hr class="hrs">
+                    <li><a><button class="login">Log in</button></a></li>
+                    <li><a><button class="register">Register</button></a></li>
+                </ul>
+                <h6 class="menu">Menu</h6> 
+                <label for="nav-toggle" class="icon-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    </label>
+            </nav>
+        </div>
+        <div class="navmenu1">
+            <img class="sparkle" src="./images/clean.png" alt="">
+            <h1>The best way to learn to code</h1>
+            <img class="sparkle1" src="./images/clean.png" alt="">
+        </div>
+        <div class="navmenu2">
+            <h4>Courses designed by experts with real-world practice.</h4>
+            <h5>Join our global community. It's free.</h5>
+            <button class="start">start learning now!</button>
+        </div>
+        <h5 class="or"><hr class="hr1"> <text>or</text> <hr class="hr2"></h5>
+        <div class="apps">
+            <button class="google"><i class="fa fa-google-plus-official" aria-hidden="true"></i> Google</button>
+            <button class="apple"><i class="fa fa-apple" aria-hidden="true"></i> Apple</button>
+            <button class="fb"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</button>
+        </div>
+        <div class="courselist">
+            <!-- <i class="fa fa-angle-left" aria-hidden="true" id="angleft"></i> -->
+            <div class="mySlides">
+            <button class="python"><img src="./images/python.png"><h3>python Core</h3></button>
+           </div>
+           <div class="mySlides">
+            <button class="cplus"><img src="./images/c++.png"><h3>C++</h3></button>
+           </div>
+           <div class="mySlides">
+           <button class="java"><img src="./images/java.png"><h3>Java</h3></button>
+           </div>
+           <div class="mySlides fade">
+           <button class="js"><img src="./images/js.png"><h3>JavaScript</h3></button>
+           </div>
+           <div class="mySlides fade">
+            <button class="market"><img src="./images/marketers.png"><h3>Coding for Marketers</h3></button>
+           </div>
+            <div class="mySlides fade">
+            <button class="market"><img src="./images/marketers.png"><h3>Coding for Marketers</h3></button>
+            </div>
+            <!-- <i class="fa fa-angle-right" aria-hidden="true" id="angleright"></i> -->
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+            <div class="row">
+                <button class="home"><img src="./images/home.svg">
+                <h3>Tailored to you</h3>
+                <h5>No matter your experience level,
+                 you'll be writing <b>real, functional code within
+                  minutes </b> of starting your first course. </h5></button>
+                <button class="home1"><img src="./images/hom1.svg">
+                <h3>Bite-sized</h3>
+                <h5>Go step-by-step through our unique courses.
+                     Assess what you’ve learned with in-lesson quizzes,
+                     and <b>gradually advance your skills with practice.</b></h5>
+                </button>
+                <button class="home2"><img src="./images/home2.svg">
+                    <h3>Get proof</h3>
+                    <h5><b>Earn a certificate </b> to validate your newly acquired skills. 
+                        Post it on social for others to see.</h5>
+                </button>
+            </div>
+            <div class="row1">
+                <button class="learn">
+                    <h3>Learning on the go</h3>
+                    <h5><b>Learn on the web or on the go.</b>Sololearn is always ready for you and 
+                        you'll never lose your place.</h5>
+                        <div class="install"> 
+                        <img class="appstore" src="./images/appstore.webp">
+                        <img class="gplay" src="./images/gplay.webp">
+                        </div>
+                        <img src="./images/mobile.svg">
+                </button>
+                <button class="courses">
+                    <img src="./images/course.svg">
+                    <h3>More than 20 courses</h3>
+                    <h5>From Python, through data, to web dev. <b>We got everything you need.</b></h5>
+                    <h6>Go to courses <i id="rightangle" class="fa fa-angle-right" aria-hidden="true"></i>
+                    </h6>
+                </button>
+            </div>
+        <div class="row2">
+            <h1>The perfect platform to boost your technical skills</h1>
+            <div class="left">
+                <div class="students">
+                    <img src="./images/students.svg">
+                    <h3>Students</h3>
+                    <h5>Prepping for the big test or want to ace your first 
+                        interview? Use Sololearn's real-world practice to reinforce what you've
+                         learned and get you ready for that big moment.</h5>
+                </div>
+                <div class="pro">
+                    <img src="./images/professionals.svg">
+                    <h3>professionals</h3>
+                    <h5>You can learn something totally new to advance your career.
+                         Or maybe you just want to knock off the rust.
+                         Try Sololearn to get access to a variety of courses,
+                          from machine learning to web development.</h5>
+                </div>
+            </div>
+        </div>  
+        <div class="support">
+            <div class="leftimg">
+                <span class="dot"></span>
+                <img class="img" src="./images/img.png">
+                <img class="img1" src="./images/img6.png">
+                <img class="img2" src="./images/img1.png">
+                <span class="dot1"></span>
+                <img class="img3" src="./images/img2.png">
+            </div>            
+            <div class="community">
+           <h3>Supportive Community</h3>
+           <h4>52,947,763</h4>
+           <h5>Share your code or questions and get instant 
+               feedback or become a creator and spread your knowledge and
+            experience with our global community of learners.</h5>
+            <img class="play" src="./images/play.png">
+        </div> 
+        <div class="rightimg">
+            <span class="dot2"></span>
+            <img class="img4" src="./images/img3.png">
+            <img class="img5" src="./images/img7.png">
+            <span class="dot3"></span>
+            <img class="img6" src="./images/img4.png">
+            <img class="img7" src="./images/img5.png">  
+
+        </div> 
+      </div>
+      <div class="text">
+            <button>We have helped hundreds of IT Coordinators to finally <b style="color: #2493DF;">land a dream job</b></button>
+      </div>
+      <div class="code">
+        <h3>Why <b style="color: #2493DF; background-color: #a0cdeb;">Code</b></h3>
+        <div class="rowpost">
+            <button class="btn1">
+                <img src="./images/popular.svg">
+                <h3>It's popular</h3>
+                <h5><b>Technical skills are in high demand.</b> Over 60% of new jobs worldwide will require tech skills.</h5>
+            </button>
+            <button class="btn2">
+                <img src="./images/promising.svg">
+                <h3>It's promising</h3>
+                <h5>Unlock your earning potential! Entry-level programmers in the U.S. earn on <b>average over $78,000 in salary. </b></h5>
+            </button>
+            <button class="btn3">
+                <img src="./images/fun.svg">
+                <h3>It's fun</h3>
+                <h5>Imagine combining your passion and skill with your creativity, and <b> making something new everyday! </b></h5>
+            </button>
+        </div>
+        <h4>Start right here on Sololearn by coding with our Code Playground and posting your coolest projects for all to see!</h4>
+        <button class="start">start learning</button>
+        </div>
+        <div class="invest">
+            <h3>Invest in yourself with <button class="buttons">PRO</button></h3>
+            <div class="investbtn">
+                <button class="unlimited">
+                    <h3>Unlimited practise</h3>
+                    <h4>2X</h4>
+                    <h5>Pro users are twice as likely to incorporate practice in their learning plan</h5>
+                </button>
+                <button class="adfree">
+                    <h3>Ad-free experience</h3>
+                    <h4>+132%</h4>
+                    <h5>Pro users spend <b style="color: #fbb461;">132%</b> more time learning than regular ones.</h5>
+                </button>
+                <button class="habit">
+                    <h3>Habit information</h3>
+                    <h4>92%</h4>
+                    <h5>Pro users that set up daily goals have the highest lesson completion rate of <b style="color: #fbb461;">92%!</b></h5>
+                </button>
+
+            </div>
+            <div class="points1">
+                <h5 class="practise"><i class="fa fa-check" aria-hidden="true"></i> Unlimited practise</h5>
+                <h5 class="experience"><i class="fa fa-check" aria-hidden="true"></i> Ad-free experience</h5>
+                <h5 class="statistics"><i class="fa fa-check" aria-hidden="true"></i> Progress statistics</h5>
+                <h5 class="goals"><i class="fa fa-check" aria-hidden="true"></i> Daily Goals</h5>
+            </div>
+            <div class="points2">
+                <h5 class="features"><i class="fa fa-check" aria-hidden="true"></i> Habit building features</h5>
+                <h5 class="shortcuts"><i class="fa fa-check" aria-hidden="true"></i> Lesson shortcuts</h5>
+                <h5 class="challenges"><i class="fa fa-check" aria-hidden="true"></i> Real life challenges</h5>
+            </div>
+            <button class="learnpro">Start learning like a pro</button>
+        </div>
+        <div class="success">
+            <img src="./images/story.png">
+            <h4>The success story of</h4>
+            <h5>Niteesh R.</h5>
+            <h6>Neetish R. started using Sololearn during his sophomore year as a computer science student with no coding experience. Through the Sololearn community, he met David C., an experienced developer and tech lead for a team located in India. David mentored Neetish, learned he was from India, and invited him to interview for a job on his team. Neetish followed through, nailed the interview process, and got his first job! Here's what Neetish has to say about Sololearn:
+                "If you are a learner then you might find your family among the Sololearn community."
+            </h6>
+            <h6>Neetish R., 2018</h6>
+            <hr>
+            <h6 class="heart"><i id="love" class="fa fa-heart" aria-hidden="true"></i>
+                 Thank you Neetish R.!</h6>
+        </div>
+        <div class="award">
+            <h1>Award Winning Experience</h1>
+            <div class="awardrow">
+                <div class="ratings">
+                    <div class="rate">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i style ="margin-left: 8px;" class="fa fa-star" aria-hidden="true"></i>
+                        <i style ="margin-left: 8px;" class="fa fa-star" aria-hidden="true"></i>
+                        <i style ="margin-left: 8px;" class="fa fa-star" aria-hidden="true"></i>
+                        <i style ="margin-left: 8px;" class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h5>4.8 from 5</h5>
+                    <h6><i class="fa fa-pagelines" aria-hidden="true" id="leaf"></i>Stars on the AppStore<i class="fa fa-pagelines" aria-hidden="true" id="leaf1"></i></h6>
+                </div>
+                <div class="ratings1">
+                    <i id="facebk" class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <h5>App of the Year</h5>
+                    <h6><i class="fa fa-pagelines" aria-hidden="true" id="leaf"></i> FB Starts by Facebook   <i class="fa fa-pagelines" aria-hidden="true" id="leaf1"></i></h6>
+                </div>
+                <div class="ratings2">
+                    <img src="./images/icons8-google-play-50.png">
+                    <h5>Editor's Choice</h5>
+                    <h6><i class="fa fa-pagelines" aria-hidden="true" id="leaf"></i> Google Play   <i class="fa fa-pagelines" aria-hidden="true" id="leaf1"></i></h6>
+                </div>
+                <div class="ratings3">
+                    <img src="./images/EdTech_logo.webp">
+                    <h5>Best Computer Coding Eductaion Solution</h5>
+                    <h6><i class="fa fa-pagelines" aria-hidden="true" id="leaf"></i> EdTecg Breakthrough Award 2021   <i class="fa fa-pagelines" aria-hidden="true" id="leaf1"></i></h6>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h1>Coding has never been easier</h1>
+            <button class="learnpros">Start learning now</button>
+            <hr>
+            <div class="sociallinks">
+                <i id="linked" class="fa fa-linkedin" aria-hidden="true"></i>
+                <h6 class="linkedin">Follow us on Linkedin</h6>
+                <i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>
+                <h6 class="fbcheck">Check out our facebook</h6>
+                <i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>
+                <h6 class="tweet">See what we tweet about</h6>
+                <i id="insta" class="fa fa-instagram" aria-hidden="true"></i>
+                <h6 class="instagram">Join our instagram</h6>
+                <i id="youtube" class="fa fa-youtube-play" aria-hidden="true"></i>
+                <h6 class="youtubeplay">Watch our Youtube</h6>
+                <img class="applestore" src="./images/appstore.webp">
+                <img class="mobileplaystore" src="./images/gplay.webp">
+            </div>
+            <div class="footerbar">
+               <h6 class="homes">Home</h6>
+               <h6 class="course1">Courses</h6>
+               <h6 class="codeplay">Code Playground</h6>
+               <h6 class="top">Top Learners</h6>
+               <h6 class="blog1">Blog</h6>
+               <h6 class="pro1">Pro</h6>
+               <h6 class="faq1">FAQ</h6>
+               <h6 class="contact1">Contact</h6>
+               <h6 class="careers1">Careers</h6>
+               <button class="hiring1">We're hiring</button>
+               <h6 class="terms">Terms of Use</h6>
+               <h6 class="privacypolicy">Privacy Policy</h6>
+               <h6 class="sololearns">Made with <i id="love" class="fa fa-heart" aria-hidden="true"></i> by Sololearn</h6>
+               <div class="vl"></div>
+               <i id="copy" class="fa fa-copyright" aria-hidden="true"></i>
+               <h6 class="copywright"> 2022</h6>
+            </div>
+        </div>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+</body>
+</html>
